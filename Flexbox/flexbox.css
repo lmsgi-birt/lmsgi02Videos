@@ -1,0 +1,80 @@
+body {
+    background: #f8f8f8;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.contenedor {
+    background: #009AB7;
+    border-radius: 5px;
+    margin: 0 auto;
+    padding: 5px;
+    min-height: 300px;
+    width: 700px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+article {
+    background: rgba(255,255,255,.7);
+    color: #000000;
+    font-size: 14px;
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+    flex-grow: 1;
+}
+
+.contenedor article:nth-child(odd) {
+    background: #ffffff;
+}
+
+.contenedor article:nth-child(1) {
+    flex-grow: 4;
+}
+
+.contenedor article:nth-child(3) {
+    flex-grow: 2;
+}
+
+.contenedor article:nth-child(6) {
+    flex-grow: 3;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* PREFIJOS RECOMENDADOS
+*/
+
+.prefijos {
+display: -webkit-box;  /* Navegadores Viejos - iOS 6-, Safari 3.1-6, BB7 */
+display: -ms-flexbox;  /* Internet Explorer 10 */
+display: -webkit-flex; /* Safari 6.1+. iOS 7.1+, BB10 */
+display: flex;         /* Firefox, Chrome, Opera */
+}
