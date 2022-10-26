@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+
+
+    <head>
+        <meta charset="utf-8">
+        <title>Formulario</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;700&family=Pacifico&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/estilos.css">
+    </head>
+<body>
+
+<header >
+    <h1>BIRT LH</h1>
+    <h2>Solicitud de curso</h2>
+</header>
+ 
+<section>
+    <h4>Ejemplo formulario</h4>
+    <article>
+         
+        <form id="form1" action="index.html">
+            <fieldset>
+                <legend><h3>Mi Primer Formulario</h3></legend>
+                    <label for="fnamenom1">Nombre:</label><br>
+                    <input type="text" id="fnamenom1" name="nombre1" value="nombre"><br>
+                    <label for="fnameapel1">Apellido:</label><br>
+                    <input type="text" id="fnameapel1" name="apellido1" value="apellido"><br>
+                    
+
+                
+                <label for="mod1">Elige el modulo:</label><br>
+                <select id="mod1" name="modulo">
+                    <option value="LM1">LMSGI</option>
+                    <option value="PROG1">Program</option>
+                    <option value="BD1">BD</option>
+                </select>
+            
+                <input type="submit" value="Enviar">
+            </fieldset>
+        </form>
+    </article>
+    
+    <article>
+        <form id="form2" action="mailto:direcciondelcorreo@correo.com" method="get">
+            <fieldset>
+                <legend><h3>Formulario Con Envío Email</h3></legend>
+                    <label for="fnamenom2">Nombre:</label><br>
+                    <input type="text" id="fnamenom2" name="nombre2"  value="nombre"><br>
+                    <label for="fnameapel2">Apellido:</label><br>
+                    <input type="text" id="fnameapel2" name="apellido2" value="apellido"><br>
+                
+                   
+
+                <label for="mod2">Elige el modulo:</label><br>
+                <select id="mod2" name="modulo">
+                    <option value="LM2">LMSGI</option>
+                    <option value="PROG2">Program</option>
+                    <option value="BD2">BD</option>
+                </select>
+            
+                <input type="submit" value="Enviar">
+            </fieldset>
+        </form>
+    </article>
+  
+
+</section>
+ 
+<footer>
+<p>CIPF Hezkuntza Saila</p>
+</footer>
+ 
+
+</body>
+</html>
